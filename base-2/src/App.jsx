@@ -1,12 +1,18 @@
-import './App.css'
+import React, { useState } from 'react';
+import './App.css';
+import FirstComponent from './components/FirstComponent';
+import Event from './components/Event';
 
-function App() {
+const App = () => {
 
   return (
     <>
-    <h1>Hello World !!</h1>
+      <div className='container'>
+        {/* <FirstComponent /> */}
+        <Event />
+      </div>
     </>
   )
 }
 
-export default App
+export default App;
